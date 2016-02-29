@@ -1,0 +1,11 @@
+recipe direction textview scroll need to work
+if no recipes in database - display appropriate message in list recipes page
+Preference 
+modularize AddIngrdientsActivity
+
+
+
+SQLite
+EditView display
+Preference
+Validations

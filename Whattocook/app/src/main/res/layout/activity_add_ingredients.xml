@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ingredientLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/add_ingrdients">
+
+        <EditText
+            android:id="@+id/ingredientEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="50dp"
+            android:hint="@string/ingredientEditText"
+            android:background="@color/editText_background"
+            android:visibility="visible"/>
+
+        <ListView
+            android:id="@+id/ingredientList"
+            android:layout_width="fill_parent"
+            android:layout_height="450dp"
+            android:paddingTop="60dp"
+            android:paddingLeft="150dp"
+            android:paddingRight="150dp"
+            android:layout_below="@id/ingredientEditText">
+        </ListView>
+
+<!--
+        <TextView
+            android:id="@+id/backID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Screen"
+            android:paddingTop="500dp"
+            android:textAppearance="@style/ActivityText"/>-->
+
+        <Button
+            android:id="@+id/ingrBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/searchRecipes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Recipes"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

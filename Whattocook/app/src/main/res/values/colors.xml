@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notepad_paper">#6E6E6E</color>
+    <color name="notepad_lines">#554e44</color>
+    <color name="notepad_margin">#c62104</color>
+    <color name="notepad_text">#000000</color>
+    <color name="background">#535657</color>
+    <color name="editText_background">#FAFAFA</color>
+    <color name="new_recipe_textcolor">#030E01</color>
+    <color name="add_recipe_background">#F5ECCE</color>
+</resources>
